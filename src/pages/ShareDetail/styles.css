@@ -1,0 +1,102 @@
+.body {
+  padding: 5vw 0;
+}
+
+.detailHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 4vw;
+}
+
+.detailHeaderLeft {
+  color: #fff;
+  font-family: PingFangSC;
+  font-size: 4.2vw;
+}
+
+.detailHeaderBiaohao {
+  font-size: 4vw;
+}
+
+.detailHeaderRigth {
+  border: 1px solid #07b3d2;
+  width: 30vw;
+  height: 6vw;
+  border-radius: 5vw;
+  color: #07b3d2;
+  font-size: 3.5vw;
+  text-align: center;
+  line-height: 6vw;
+}
+
+
+.detailNum {
+  margin: 4vw 0;
+  color: #07b3d2;
+  font-size: 4vw;
+  padding: 0 4vw;
+}
+
+.detailContent {
+  background-color: #142d3e;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 15vw;
+  padding-bottom: 1vw;
+}
+
+.detailContent > div {
+  width: 25%;
+  text-align: center;
+  line-height: 5vw;
+}
+
+.detailContentText1 {
+  font-family: PingFangSC;
+  color: #07b3d2;
+  font-size: 3.2vw;
+}
+
+.detailContentText2 {
+  font-family: PingFangSC;
+  color: #fff;
+  font-size: 4vw;
+}
+
+.chartSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 3.5vw;
+  padding: 3vw 5vw;
+}
+
+.chartSelect {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  border: 1px solid #07b3d2;
+  text-align: center;
+  line-height: 8vw;
+}
+
+.chartNomal {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 8vw;
+}
+
+.chartContent {
+  border: 1px solid #07b3d2;
+  width: 90vw;
+  height: 53vw;
+  border-radius: 10px;
+  margin: 0 5vw 5vw;
+  text-align: center;
+  color: #fff;
+}

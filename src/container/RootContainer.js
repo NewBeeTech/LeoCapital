@@ -1,6 +1,7 @@
 // 组合所有组件  root component
 
 import React, { PropTypes } from 'react';
+import * as styles from './styles.css';
 import { connect } from 'react-redux';
 import shallowCompare from 'react-addons-shallow-compare';
 import { replace } from 'react-router-redux';
@@ -14,24 +15,12 @@ const propTypes = {
 
 class RootContainer extends React.PureComponent {
   componentWillMount() {
-    try {
-      if (this.props.location.pathname === '/') {
-        dispatch(replace('/login'))
-      }
-    } catch(e) {
-    }
   }
   componentWillReceiveProps(nextProps) {
-    try {
-      if (nextProps.location.pathname === '/') {
-        dispatch(replace('/login'))
-      }
-    } catch(e) {
-    }
   }
   render() {
     return (
-      <div style={{ width: '100vw', height: '100vh', backgroundColor: '#f4f4f4' }}>
+      <div className={styles.rootContent}>
         {this.props.children}
       </div>
     );
@@ -42,7 +31,6 @@ RootContainer.propTypes = propTypes;
 
 const mapStateToProps = (state) => {
   return {
-    isLogin: state.LoginReducer.get('isLogin'),
   };
 };
 

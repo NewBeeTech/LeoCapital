@@ -1,0 +1,6 @@
+.rootContent {
+  height: 100vh;
+  width: 100vw;
+  background: url('../assets/images/background-img-min.png') no-repeat;
+  background-size: 100vw 100vh;
+}

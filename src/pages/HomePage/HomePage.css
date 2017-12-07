@@ -1,0 +1,84 @@
+.body {
+  padding: 0 4vw;
+}
+
+.homePageHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePageLogo {
+  width: 20vw;
+  height: 20vw;
+  margin: 5vw 0 3vw;
+}
+
+.homePageTitle {
+  color: #fff;
+  font-family: PingFangSC;
+  font-weight: 300;
+  font-size: 4.2vw;
+  margin-bottom: 2vw;
+}
+
+:global(.am-search) {
+  background-color: inherit !important;
+  padding: 0 15vw!important;
+  color: #052b3e !important;
+  
+}
+:global(.am-search-input) {
+  background-color: #4e8da7 !important;
+  height: 8vw !important;
+  border-radius: 3vw !important;
+  color: #052b3e !important;
+}
+
+:global(.am-search-input .am-search-synthetic-ph .am-search-value) {
+  color: #052b3e !important;
+}
+
+:global(.am-search-cancel-show) {
+  opacity: 0 !important;
+}
+
+.tableTh {
+  font-size: 3.5vw;
+  color: #fff;
+  font-family: PingFangSC;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-radius: 4px;
+  border: solid 1px #68a4bd;
+  padding: 1.5vw 2vw;
+  margin-top: 3vw;
+}
+
+.tableTh1 {
+  width: 50vw;
+}
+
+.tableTh2 {
+  width: 20vw;
+  text-align: right;
+}
+
+.tableTh3 {
+  width: 20vw;
+  text-align: right;
+}
+
+.tableTr {
+  font-size: 3.5vw;
+  color: #fff;
+  font-family: PingFangSC;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-radius: 4px;
+  padding: 3vw 2vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
