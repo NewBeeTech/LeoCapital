@@ -10,8 +10,8 @@
 }
 
 .homePageLogo {
-  width: 20vw;
-  height: 20vw;
+  width: 23vw;
+  height: 23vw;
   margin: 5vw 0 3vw;
 }
 
@@ -81,4 +81,8 @@
   border-radius: 4px;
   padding: 3vw 2vw;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tableTr1  {
+  color: #66a1bc;
 }

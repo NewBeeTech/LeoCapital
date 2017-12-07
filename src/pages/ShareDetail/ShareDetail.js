@@ -40,8 +40,8 @@ class ShareDetail extends React.PureComponent {
       <div className={styles.body}>
           <div className={styles.detailHeader}>
              <div className={styles.detailHeaderLeft}>
-                <span>鑫峰电机</span>
-                <br /><span className={styles.detailHeaderBiaohao}>SH600298</span>
+                <span>{this.props.detailInfo.get('name') || '空'}</span>
+                <br /><span className={styles.detailHeaderBiaohao}>{this.props.detailInfo.get('code')}</span>
               </div>
              <div className={styles.detailHeaderRigth}>2017.10.12更新</div>
           </div>
@@ -56,7 +56,6 @@ class ShareDetail extends React.PureComponent {
                <div><span className={styles.detailContentText1}>市盈率</span><br /><span className={styles.detailContentText2}>10.34</span></div>
                <div><span className={styles.detailContentText1}>换手率</span><br /><span className={styles.detailContentText2}>321%</span></div>
           </div>
-          
           
           <div>
               <div className={styles.chartSearch}>{showChartArr(this.state.chartArr)}</div>

@@ -4,8 +4,7 @@ import ShareDetail from './ShareDetail';
 
 const mapStateToProps = (state) => ({
   dispatch: state.dispatch,
-  // errMsg: state.LoginReducer.get('errMsg'),
-  // isFetching: state.LoginReducer.get('isFetching'),
+  detailInfo: state.HomePageReducer.get('detailInfo')
 });
 
 export default connect(mapStateToProps)(ShareDetail);

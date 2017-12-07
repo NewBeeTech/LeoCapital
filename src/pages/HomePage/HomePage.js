@@ -39,8 +39,8 @@ class HomePage extends React.PureComponent {
           <div className={styles.tableTr}>
               <div>1</div>
               <div>安琪酵母 SH600298</div>
-              <div>18%</div>
-              <div>136%</div>
+              <div className={styles.tableTr1}>18%</div>
+              <div className={styles.tableTr1}>136%</div>
           </div>
       </div>
     );
